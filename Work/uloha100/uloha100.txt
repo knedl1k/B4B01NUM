@@ -1,0 +1,11 @@
+lprint(`Úloha 100:`);
+
+lprint(`Funkci f aproximujte jen s pomocí tabulky hodnot a čtyř základních`);
+lprint(`aritmetických operací (eventuálně umocňování s celočíselným`);
+lprint(`exponentem) tak, abyste dosáhli relativní chybu nejvýše epsilon na`);
+lprint(`intervalu nejméně (a,b), kde`);
+
+f := GAMMA; GAMMA('xx') = Int(exp(-'t')*'t'^('xx'-1), 't'=0..infinity);
+a := 1; 
+b := 10;
+epsilon := 10^(-6);

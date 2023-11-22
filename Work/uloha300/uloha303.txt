@@ -1,0 +1,9 @@
+lprint(`Uloha 303:`);
+lprint(`Vytvorte program, ktery pro libovolne  t  z intervalu  <a, b>`);
+a := 0;  b := 10*Pi;
+lprint(`vypocita pomoci nektere ze zde probiranych metod hodnotu`);
+dano:=Int(sqrt(abs(cos(x))), x=a..t);
+lprint(`s absolutni chybou nejvyse`);
+epsilon := 1e-8;
+lprint(`Objasnete pouzity postup a zduvodnete dosazenou presnost.`);
+lprint(`Funkci programu demonstrujte graficky nebo tabulkou (v zavislosti na t).`);
