@@ -1,0 +1,6 @@
+lprint(`Uloha 415:`);
+lprint(`Urcete vsechny koreny funkce`);
+f := x -> 0.05*exp(-x)+(x+1)/(x+2)-0.1e-11/(x^2-3.10685812*x+2.413141844453);
+lprint(`s chybou nejvyse`);
+epsilon := 1e-10;
+lprint(`Zduvodnete dosazenou presnost.`);
